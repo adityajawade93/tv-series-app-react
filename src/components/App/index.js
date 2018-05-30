@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title"><Link to={'/'}>TV Series List</Link></h1>
+          <h1 className="App-title"><Link to={'/tv-series-app-react'}>TV Series List</Link></h1>
         </header>
         <Main />
       </div>    
