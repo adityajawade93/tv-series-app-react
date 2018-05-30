@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import SeriesList from '../../components/SeriesList'
 import Loader from '../../components/Loader'
+import Intro from '../../components/Intro'
 
 class Series extends Component {
 
@@ -24,7 +25,7 @@ class Series extends Component {
 
         return (
             <div>
-                
+                <Intro message="Here You Can Find All Your Loved Series" />
                 <div>
                     <input 
                         value={ seriesName } 
