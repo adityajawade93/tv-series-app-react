@@ -5,8 +5,8 @@ import SingleSeries from '../../containers/SingleSeries'
 
 const Main = props => (
   <Switch>
-    <Route exact path="/" component={ Series } />
-    <Route path="/series/:id" component={ SingleSeries } />
+    <Route exact path="/tv-series-app-react" component={ Series } />
+    <Route path="/tv-series-app-react/series/:id" component={ SingleSeries } />
   </Switch>
 )
 
